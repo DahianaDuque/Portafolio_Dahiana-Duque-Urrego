@@ -1,3 +1,89 @@
-.main-screen{
-    background-color: lightpink;
-}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Animación suave al desplazarse */
+    background-color: #ffe4f7; /* Fondo rosado claro */
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff69b4; /* Rosa brillante */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .section {
+    padding: 100px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home {
+    background-color: #ffb6c1; /* Rosa claro */
+    color: #800080; /* Morado */
+  }
+  
+  .projects {
+    background-color: #ffc0cb; /* Rosa pastel */
+    color: #800080;
+  }
+  
+  .about {
+    background-color: #ffe4e1; /* Rosa muy claro */
+    color: #800080;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #ff1493; /* Rosa oscuro */
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #800080; /* Morado */
+    text-align: center;
+    max-width: 800px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1.2em;
+    color: #ff1493;
+    margin: 10px 0;
+  }
+  
+  a {
+    color: #ff1493;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #ff69b4;
+  }
